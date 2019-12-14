@@ -10,7 +10,7 @@ public class CglibProxyExample implements MethodInterceptor {
     /**
      * 生成cglib代理对象
      * @param cls 实例类
-     * @return
+     * @return 代理对象
      */
     public Object getProxy(Class cls){
         Enhancer enhancer = new Enhancer();
